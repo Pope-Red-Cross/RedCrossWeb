@@ -261,6 +261,7 @@ a:focus {
   position: relative;
   padding: 45px 0 145px 0;
   background-color: #FACBCD;
+
 }
 
 .slider_section .row {
@@ -338,8 +339,6 @@ a:focus {
 .slider_section .img-box {
   margin: 45px 0;
 }
-
-
 .slider_section .img-box img {
   width: 100%;
   -webkit-animation: upDown 5s infinite;
