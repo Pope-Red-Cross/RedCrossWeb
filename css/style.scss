@@ -1,8 +1,9 @@
 $white: #ffffff;
 $black: #000000;
-// $primary1: #0cb1a8;
-$primary1: #00bbf0;
-$primary2: #00204a;
+// $primary3: #0cb1a8;
+$primary3: #dd2049;
+$primary2: #c22171;
+$primary3: #dd2049;
 $textCol: #1f1f1f;
 
 // import fonts - font-family: 'Open Sans', sans-serif;
@@ -73,7 +74,7 @@ body {
     margin-bottom: 0;
 
     span {
-      color: $primary1;
+      color: $primary3;
     }
   }
 
@@ -139,7 +140,7 @@ a:focus {
 .sub_page {
   .hero_area {
     min-height: auto;
-    background: linear-gradient(130deg, #231a6f, #0f054c);
+    background: linear-gradient(130deg, #6f1a1a, #4c0505);
 
     .hero_bg_box {
       display: none;
@@ -184,7 +185,7 @@ a:focus {
       &:hover,
       &.active {
         .nav-link {
-          color: $primary1;
+          color: $primary3;
         }
       }
 
@@ -205,7 +206,7 @@ a:focus {
   color: $white;
 
   &:hover {
-    color: $primary1;
+    color: $primary3;
   }
 }
 
@@ -314,7 +315,7 @@ a:focus {
       }
 
       .btn1 {
-        @include hero_btn($primary1, $white, 10px, 15px, 0);
+        @include hero_btn($primary3, $white, 10px, 15px, 0);
       }
 
       .btn2 {
@@ -363,7 +364,7 @@ a:focus {
       &.active {
         width: 20px;
         height: 20px;
-        background-color: $primary1;
+        background-color: $primary3;
       }
     }
   }
@@ -415,7 +416,7 @@ a:focus {
         font-weight: 600;
 
         &:hover {
-          color: $primary1;
+          color: red;
         }
       }
     }
@@ -428,7 +429,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 0);
+      @include hero_btn(red, $white, 10px, 45px, 0);
     }
   }
 }
@@ -437,12 +438,16 @@ a:focus {
 
 // about section
 .about_section {
-  background-color: $primary2;
+  background-color: red;
   color: $white;
 
   .heading_container {
     margin-bottom: 45px;
+    span {
+      color:#f00034;
+    }
   }
+  
 
   .row {
     align-items: center;
@@ -464,7 +469,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 0px);
+      @include hero_btn($primary3, $white, 10px, 45px, 0px);
       margin-top: 15px;
     }
   }
@@ -518,7 +523,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 0);
+      @include hero_btn($primary3, $white, 10px, 45px, 0);
     }
   }
 }
@@ -565,7 +570,7 @@ a:focus {
         margin: 25px 0;
 
         h5 {
-          color: $primary1;
+          color: $primary3;
           font-weight: 600;
           position: relative;
         }
@@ -582,7 +587,7 @@ a:focus {
           font-size: 22px;
 
           &:hover {
-            color: $primary1;
+            color: $primary3;
           }
         }
       }
@@ -708,7 +713,7 @@ a:focus {
         }
 
         &:hover {
-          color: $primary1;
+          color: $primary3;
         }
       }
     }
@@ -729,7 +734,7 @@ a:focus {
       font-size: 24px;
 
       &:hover {
-        color: $primary1;
+        color: $primary3;
       }
     }
   }
@@ -746,7 +751,7 @@ a:focus {
       color: $white;
 
       &:hover {
-        color: $primary1;
+        color: $primary3;
       }
     }
   }
@@ -769,7 +774,7 @@ a:focus {
     button {
       width: 100%;
       text-align: center;
-      @include hero_btn($primary1, $white, 10px, 55px, 0);
+      @include hero_btn($primary3, $white, 10px, 55px, 0);
       margin-top: 15px;
     }
   }
