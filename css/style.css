@@ -264,11 +264,21 @@ a:focus {
 
 }
 
+.slider_section p {
+  border-radius: 15px 40px 30px;
+  background: #ff5ed760;
+  padding: 13px;
+  width: 315px;
+  height: 150px;
+}
+
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
+
+
 
 .slider_section #customCarousel1 {
   width: 100%;
@@ -285,6 +295,13 @@ a:focus {
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #ffffff;
+}
+
+.slider_section .detail-box h1 span {
+  color: #ff0000;
+}
+.slider_section .detail-box h1 #blue {
+  color: #1707ff;
 }
 
 .slider_section .detail-box p {
@@ -344,6 +361,8 @@ a:focus {
   -webkit-animation: upDown 5s infinite;
           animation: upDown 5s infinite;
 }
+
+
 
 @-webkit-keyframes upDown {
   0% {
