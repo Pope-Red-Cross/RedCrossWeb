@@ -1,5 +1,3 @@
-<p>Use this repository and not the other one...</p>
-<p>Go to this link to visit the website: <a href="https://pope-red-cross.github.io/Pope_RedCross.github.io/" target="_blank">Pope_RedCross.github.io</a></p>
 
 <h2>How to edit the code:</h2>
 <ol>
