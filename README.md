@@ -1,4 +1,4 @@
-# Red Cross Website Repository
+# Pope Red Cross Website
 
 Welcome to the Red Cross Website repository! This is our first project on GitHub, dedicated to building a website aimed at spreading kindness and support to those in need.
 
